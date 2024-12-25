@@ -1,0 +1,67 @@
+.auth-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fe; // Light background color for auth pages
+    padding: 20px;
+  }
+  
+  .auth-layout .card {
+    width: 100%;
+    max-width: 400px; // Ensure card does not get too wide
+  }
+  
+  .auth-layout .btn-neutral {
+    color: #5e72e4;
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+  .auth-layout .btn-icon .btn-inner--icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .auth-layout .btn-icon .btn-inner--text {
+    margin-left: 10px;
+  }
+  
+  .auth-layout .input-group-alternative {
+    border: 1px solid #e9ecef;
+    border-radius: .375rem;
+    box-shadow: none;
+  }
+  
+  .auth-layout .input-group-alternative .form-control, 
+  .auth-layout .input-group-alternative .input-group-text {
+    border: 0;
+    box-shadow: none;
+  }
+  
+  .auth-layout .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .auth-layout .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #5e72e4;
+    border-color: #5e72e4;
+  }
+  
+  .auth-layout .custom-checkbox .custom-control-label::before {
+    border-radius: .25rem;
+  }
+  
+  .auth-layout .text-muted {
+    color: #8898aa !important;
+  }
+  
+  .auth-layout .card-header {
+    background-color: #f7fafc;
+  }
+  
+  .auth-layout .btn-primary {
+    background-color: #5e72e4;
+    border-color: #5e72e4;
+  }
+  
